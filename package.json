@@ -1,14 +1,15 @@
 {
-  "name": "claim-requests",
+  "name": "offchain-attestation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Attestation request before minting on Selendra Identity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Brilliant PHAL <phalbrilliant@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
